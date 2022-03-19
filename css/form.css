@@ -1,0 +1,123 @@
+:root {
+  --red: #f38181;
+  --yellow: #fce38a;
+  --lime: #eaffd0;
+  --teal: #95e1d3;
+}
+
+.simar-form {
+  height: 100%;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, var(--teal), var(--lime));
+}
+.container-form {
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.title {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+
+}
+.user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+.user-details .input-box,
+#category {
+  margin-bottom: 15px;
+  width: calc(50% - 15px);
+}
+.input-box span.details,
+#category {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input,
+#category {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid,
+#category:focus,
+.description textarea:focus {
+  border-color: var(--red);
+}
+.description .description-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description textarea {
+  resize: none;
+  display: flex;
+  margin-bottom: 5px;
+  width: calc(100% - 15px);
+  height: 55px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.btn {
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #f38181ce;
+}
+.button {
+  height: 45px;
+  width: 100%;
+}
+.button input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, var(--teal), var(--lime));
+}
+form .button input:hover {
+  background: linear-gradient(-135deg, var(--teal), var(--lime));
+}
+
+footer {
+  margin-top: 0 !important;
+}
+
+@media (max-width: 459px) {
+  .container .content {
+    flex-direction: column;
+  }
+}

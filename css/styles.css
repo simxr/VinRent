@@ -1,0 +1,180 @@
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: #95e1d3;
+  color: black;
+  padding: 20px 0;
+  margin-bottom: 50px;
+  min-height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+}
+
+header li {
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.branding h1 {
+  padding: 0;
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+.branding {
+  float: left;
+}
+
+nav {
+  float: right;
+  margin: 10px;
+}
+
+ul {
+  margin: 0;
+}
+
+nav a:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+#about-us {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+.about-us {
+  border-left: 5px #fce38a solid;
+  padding-left: 50px;
+  margin: 50px 0;
+}
+
+.our-vision {
+  border-right: 5px #fce38a solid;
+  padding-right: 50px;
+  margin: 50px 0;
+}
+
+.founders div {
+  width: 70%;
+  background-color: #eaffd0;
+  padding: 20px;
+}
+
+.simar {
+  float: left;
+  margin-right: 30px;
+}
+
+.arjun {
+  margin-top: 60px;
+  float: right;
+}
+
+.simar h3,
+.arjun h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.founders img {
+  border-radius: 100px;
+}
+
+footer {
+  background-color: #95e1d3;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials img {
+  padding: 0 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+/************ Bedding Page ************/
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 40px 10px;
+  color: #333;
+  width: 250px;
+  height: 100%;
+
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.products a {
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease-in;
+
+}
+
+.products a:hover {
+  transform: scale(1.03);
+}
+
+.img {
+  margin: 0 20px;
+}
+
+.heading h3 {
+  color: grey;
+  margin: 0;
+  padding: 0;
+}
+
+.heading h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+}
+
+/*********** CYCLES ************/
+
+.img-cycle {
+  margin: 0;
+}
